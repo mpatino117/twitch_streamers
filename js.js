@@ -3,8 +3,8 @@ USER NAME PROVIDED BY FREECODE CAMP FOR SPECIFIC API NAMES
 
 **************************************************/
 
-var usernames = ["freecodecamp", "storbeck", "terakilobyte", "habathcx",
-    "RobotCaleb", "thomasballinger", "noobs2ninjas", "beohoff"
+var usernames = ["freecodecamp", "storbeck", "AngryJoeShow", "habathcx",
+    "RobotCaleb", "defrancogames", "noobs2ninjas", "beohoff", "ESWC"
 ];
 /**********************************************
 CALL FUNCTION TO OBAIN INFORMATION THROUGH THE TWITCH API
@@ -60,7 +60,7 @@ HTML TO DEPLOY ON TO  INDEX.HTML
 **************************************************/
 
                 var html = '<div class="row ' +
-                    status + '">' + '<div class="col-xs-2 col-sm-1" id="icon">' + '<img src="' +
+                    status + '" id="row" >' + '<div class="col-xs-2 col-sm-1" id="icon">' + '<img src="' +
                     iconLogo + '" class="logo"> </div> <div class="col-xs-10 col-sm-3" id="name"><a href="' +
                     data.url + '" target="_blank">' + nameD + '</a></div><div class="col-xs-10 col-sm-8" id="streaming">' +
                     game + '<span class="hidden-xs">' +

@@ -1,0 +1,125 @@
+
+/**********************************************
+FONT STYLE
+
+**************************************************/
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,400italic);
+
+/**********************************************
+HEADER LAYOUT STYLE
+
+**************************************************/
+
+body {
+	background-color: #f1f1f1;
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	color: white;
+}
+
+.jumbotron{
+	background-color: #343436;
+	color: #f1f1f1;
+}
+
+.container{
+	
+	border: 4px black solid;
+	margin: 30px 40px;
+
+}
+
+
+
+.selector{
+	border: 2px red solid;
+	flex-wrap: wrap;
+	display: inline-block;
+	width: 20%;
+	
+
+
+}
+
+
+
+h1{
+	border: 4px green solid;
+	text-align: center;
+	
+}
+
+/**********************************************
+BODY ICONS STYLE
+
+**************************************************/
+#row{
+	border: 2px black solid;
+
+}
+
+.logo{
+	width: 5em;
+	border-radius: 50%;
+	border: 2px white solid;
+
+}
+
+#icon{
+
+	
+	align-content: center;
+	display: inline-block;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-right: 20px;
+
+	
+}
+
+#name{
+	padding-top: 2.2em;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	
+	width: 15em;
+
+}
+
+#streaming{
+	font-size: 1em;
+	padding-top: 2.2em;
+	text-align: center;
+	
+
+}
+
+
+.online{ 
+	background-color: #b8cca6;
+	color: #4a5e82;
+	text-decoration: none;
+
+}
+
+.offline{
+	
+	background-color: #4a5e82;
+	color: #b8cca6;
+	text-decoration: none;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+
+	color: lightgray;
+	text-decoration: none;
+}
+
+
+
