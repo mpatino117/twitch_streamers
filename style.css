@@ -11,7 +11,7 @@ HEADER LAYOUT STYLE
 **************************************************/
 
 body {
-	background-color: #f1f1f1;
+	background-color: #E8F5E9;
 	font-family: 'Droid Serif', serif;
 	font-size: 14px;
 	color: white;
@@ -20,31 +20,31 @@ body {
 .jumbotron{
 	background-color: #343436;
 	color: #f1f1f1;
+	margin-bottom: 0;
+	padding-bottom: 20px;
 }
 
-.container{
-	
-	border: 4px black solid;
-	margin: 30px 40px;
+
+
+
+#header{
+	padding-bottom: 0;
+	margin-bottom: 0;
 
 }
 
 
 
 .selector{
-	border: 2px red solid;
-	flex-wrap: wrap;
-	display: inline-block;
-	width: 20%;
 	
-
-
+	display: inline-block;
+	padding-right: 10px;
 }
 
 
 
 h1{
-	border: 4px green solid;
+	
 	text-align: center;
 	
 }
@@ -53,12 +53,9 @@ h1{
 BODY ICONS STYLE
 
 **************************************************/
-#row{
-	border: 2px black solid;
-
-}
 
 .logo{
+
 	width: 5em;
 	border-radius: 50%;
 	border: 2px white solid;
@@ -97,7 +94,7 @@ BODY ICONS STYLE
 
 
 .online{ 
-	background-color: #b8cca6;
+	background-color: #B9F6CA;
 	color: #4a5e82;
 	text-decoration: none;
 
@@ -105,10 +102,24 @@ BODY ICONS STYLE
 
 .offline{
 	
-	background-color: #4a5e82;
+	background-color: #00695C;
 	color: #b8cca6;
 	text-decoration: none;
 
+}
+
+.menu{
+	background-color: #343436;
+	width: auto;
+	color: white;
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
+
+.btn{
+
+	color: white;
+	background-color: #343436;
 }
 
 a{
